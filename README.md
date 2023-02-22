@@ -4,16 +4,62 @@ This is a server boilerplate using GraphQL and MongoDB. Support subscriptions us
 
 ## Getting started
 
-1. Clone this repo using `https://github.com/leonardomso/graphql-mongodb-server.git`
-2. Move to the appropriate directory: `cd graphql-mongodb-server`.
-4. Run `yarn` or `npm install` to install dependencies.
-5. Set `.env` file with your mongoURI.
-6. Run `npm start` to see the example app at `http://localhost:4000/playground`.
+1. Clone this repo using
+```
+https://github.com/aliraxa-hub/GraphQL-MongoDB.git
+```
+2. Move to the appropriate directory: 
+```
+cd GraphQL-MongoDB
+``` 
+3. Install dependencies using.
+```
+yarn install 
+or 
+npm install
+```
+4. Set `.env` file with your mongoURI and past the database connection link from mongodb atlas.
+5. Run 
+```
+npm start
+``` 
+6. See the example app at 
+```
+http://localhost:4000/playground
+```
 
 ## Commands
 
-- `npm start` - start the playground at `http://localhost:4000/playground`
+```
+npm start
+```
+start the playground at 
+```
+http://localhost:4000/playground
+```
 
-## License
+## Query
 
-MIT license, Copyright (c) 2018 Leonardo Maldonado.
+### Mutation Query
+Used to create update and delete here is the create methpd
+
+```
+mutation CreateUser($user: CreateUserInput!) {
+  createUser(user: $user) {
+    name
+    email
+    age
+  }
+}
+```
+
+### Query Veriable
+```
+{
+  "user": {
+    "name": "John Doe",
+    "email": "doe@example.com",
+    "age": 30
+  }
+}
+```
