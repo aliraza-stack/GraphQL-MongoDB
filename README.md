@@ -1,24 +1,3 @@
-<h1 align="center">
-<br>
-  <a href="https://github.com/leonardomso/xo"><img src="https://i.imgur.com/C4X4AUB.png" alt="GraphQL MongoDB Server" width="128"></a>
-<br>
-<br>
-GraphQL MongoDB Server
-</h1>
-
-<p align="center">A server boilerplate using GraphQL and MongoDB.</p>
-
-<p align="center">
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License MIT">
-  </a>
-</p>
-
-<hr />
-
 ## Introduction
 
 This is a server boilerplate using GraphQL and MongoDB. Support subscriptions using GraphQL Yoga. 
